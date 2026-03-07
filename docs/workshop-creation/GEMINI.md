@@ -8,10 +8,11 @@
   - python code for the agent
   - a library subfolder for tools and "less visible code"
   - a test folder to test python. Tests should return fast, lets concentrate on Unit tests for now.
-  - a `Justfile` with some sample invocations: `just test`, `just list`, ..
+
   - Some commented code for the next step. Example: a perfectly defined Tool function,
     commented out,
   - A `pyproject.toml` for `uv`. We use `uv` and `uvx` to execute python with automatic library installation which doesn't depend on sourcing `.env`. This is because
+
 - To ensure ease between student code and solution, we probably need to mirror the code into a `.solutions/` secret folder with FULLY working code. This way we can easily go back and forth between the REAL solution and the half-baked solution we give to students.
 
 ## Code creation

@@ -29,7 +29,7 @@ looking at the `GEMINI.md` and `WORKSHOP_PLAN.md` in this folder.
 **Solutions**. Note: the code is all co3ntained under `steps/`. If you don't want to cheat, you can just read there. For the purpose of this
 Lab, this is ok. We're not here to learn how to write good ADK code, but how to set up yuour environment to get GOOD code automatically written
 under your direction. (1) Installing the software, (2) configuring / getting it to work, and (3) entering the Golden Feedback Loop is what we
-really want you to learn here. You can also test them all at the same time via `just web-4steps`!
+really want you to learn here.
 
 ## Prerequisites (Installation)
 
@@ -47,8 +47,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
    3. On Windows, you can use `chocolatey` or just download the executable from https://nodejs.org/en/download
 
 For step 4, you'll also need `npx` installed. Both `npm` and `npx` should come naturally as part of Gemini CLI. If not, ask Gemini CLI to help you here.
-
-Optionally, you might also want to install [just](https://github.com/casey/just), it's a 21st century `Makefile` if you like makefiles. Also here: ask Gemini CLI to help you install this, he could do it for you!
 
 3. **Authentication**. You need either a Google Cloud Project with Vertex AI enabled, or a [Google AI Studio API Key](https://aistudio.google.com/api-keys).
    - **Option A (Recommended for Workshop):** Export your API Key:
@@ -241,7 +239,7 @@ When you are done, reply with "DONE".""",
 
 Same as per step 1.
 
-**Experts only**. For a more advanced integration (using `google_search` and `now` together), check the code in `steps/step03b_search_and_tool/agent.py` and run it with `just run-step3b`. This is totally optional.
+**Experts only**. For a more advanced integration (using `google_search` and `now` together), check the code in `steps/step03b_search_and_tool/agent.py` and run it from your terminal. This is totally optional.
 
 ## Step 4: A more sophisticated Tool: MCP
 
